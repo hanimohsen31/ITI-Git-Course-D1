@@ -1,0 +1,14 @@
+  873  mkdir repo1
+  874  cd repo1
+  875  git init
+  876  touch 17hani
+  877  touch index.html style.css script.js
+  879  ls -a
+  880  git add .
+  881  git status
+  882  git commit -m "committed by hani"
+  886  git remote add origin https://github.com/hanimohsen31/PythonGit.git
+  887  git branch -M main
+  890  git push -u origin main
+  891  history
+
